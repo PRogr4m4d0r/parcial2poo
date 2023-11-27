@@ -36,4 +36,7 @@ class Square extends Rectangle {
     public void setSides(double[] sides) {
         this.sides = sides;
     }
+    public double getSide() {
+        return sides[0];
+    }
 }
